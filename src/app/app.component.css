@@ -1,0 +1,75 @@
+.Nav{
+  background-color: #6060da;
+  display: flex;
+
+
+  color: white;
+
+
+  height: 40px;
+ align-items: center;
+
+  position: fixed;
+  top: 0;
+  z-index: +1;
+  width: 100%;
+
+}
+.child{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.H1{
+  flex-grow: 1;
+  font-size: large;
+  width: 100%;
+
+
+
+
+}
+.H2{
+  flex-grow: 1;
+  width: 100%;
+
+  font-size: large;
+
+
+}
+.childDiv{
+  display: flex;
+
+}
+
+i{
+  font-size: xx-large;
+margin-right: 10px;
+ margin-top: 5px;
+  display: none;
+
+}
+
+.logdiv{
+
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+
+}
+@media screen and (max-width: 500px){
+  i{
+    display: inline-block;
+  }
+}
+
+.Homecomp{
+  position: absolute;
+  top: 30px;
+  left: 250px;
+}
+
+.sidebar{
+  transform: translateX(-180%);
+}
